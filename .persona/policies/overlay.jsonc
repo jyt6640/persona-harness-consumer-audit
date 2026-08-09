@@ -1,0 +1,22 @@
+{
+  "schema": "persona.policy-overlay.v1",
+  "status": "draft",
+  "scope": {
+    "role": "backend",
+    "mvp": "java-spring-clean-code",
+    "productized": false
+  },
+  "enabled": true,
+  "priority": [
+    "company",
+    "personal",
+    "clean-code-baseline"
+  ],
+  "sources": {
+    "company": ".persona/policies/company/backend.md",
+    "personal": ".persona/policies/personal/backend.md"
+  },
+  "limits": {
+    "maxBulletsPerSource": 5
+  }
+}

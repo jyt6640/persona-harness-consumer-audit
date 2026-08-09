@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "rulesDir": ".persona/rules",
+  "evidenceDir": ".persona/evidence",
+  "conventions": {
+    "controller.repository-dependency": "block",
+    "controller.persistence-import": "warn"
+  },
+  "features": {
+    "entrySteering": false,
+    "runtimeInjection": false
+  },
+  "enforce": {
+    "executeVerification": false,
+    "systemConstitution": false,
+    "writeDeny": false,
+    "idleContinuation": false,
+    "ralphLoop": {
+      "enabled": false,
+      "maxAttempts": 3,
+      "maxSessionAttempts": 9,
+      "cooldownMs": 30000
+    }
+  },
+  "multiAgent": {
+    "enabled": false,
+    "roles": ["test-writer", "implementer", "reviewer"],
+    "models": {}
+  },
+  "maxRulesPerInjection": 12,
+  "evidenceMode": "metadata_only",
+  "scenario": "step1",
+  "enabledDomains": ["backend", "programming", "workflow"]
+}

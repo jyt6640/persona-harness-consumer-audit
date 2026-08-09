@@ -1,0 +1,175 @@
+{
+  "schema": "persona.project-profile.v1",
+  "status": "ready",
+  "scope": {
+    "role": "backend",
+    "mvp": "java-spring-clean-code",
+    "productized": false
+  },
+  "defaults": {
+    "language": "java",
+    "framework": "spring",
+    "buildTool": "gradle",
+    "testPolicy": "deferred"
+  },
+  "questions": [
+    {
+      "id": "user-language",
+      "prompt": "사용자와 agent가 주로 사용할 언어는 무엇인가요?",
+      "choices": [
+        "ko",
+        "en",
+        "ja",
+        "zh-cn",
+        "recommend"
+      ],
+      "answer": "ko"
+    },
+    {
+      "id": "project-context",
+      "prompt": "이 프로젝트는 어떤 맥락에 가깝나요?",
+      "choices": [
+        "solo",
+        "team",
+        "company",
+        "open-source",
+        "learning",
+        "recommend"
+      ],
+      "answer": "solo"
+    },
+    {
+      "id": "project-goal",
+      "prompt": "이 프로젝트의 목적은 어느 쪽에 가깝나요?",
+      "choices": [
+        "prototype",
+        "production-service",
+        "study",
+        "internal-tool",
+        "portfolio",
+        "recommend"
+      ],
+      "answer": "production-service"
+    },
+    {
+      "id": "project-scale",
+      "prompt": "프로젝트 규모와 생명주기는 어느 쪽인가요?",
+      "choices": [
+        "throwaway",
+        "small",
+        "medium",
+        "long-lived",
+        "recommend"
+      ],
+      "answer": "small"
+    },
+    {
+      "id": "application-type",
+      "prompt": "애플리케이션 형태는 어떤 쪽인가요?",
+      "choices": [
+        "rest-api",
+        "mvc-web",
+        "batch",
+        "library",
+        "mixed",
+        "recommend"
+      ],
+      "answer": "rest-api"
+    },
+    {
+      "id": "storage",
+      "prompt": "데이터 저장 방식은 어떤 쪽인가요?",
+      "choices": [
+        "none",
+        "in-memory",
+        "file",
+        "database",
+        "external-api",
+        "mixed",
+        "recommend"
+      ],
+      "answer": "database"
+    },
+    {
+      "id": "persistence-technology",
+      "prompt": "영속성 기술은 어떤 쪽을 원하나요?",
+      "choices": [
+        "not-needed",
+        "jdbc-template",
+        "jpa",
+        "mybatis",
+        "custom",
+        "recommend"
+      ],
+      "answer": "jdbc-template"
+    },
+    {
+      "id": "migration-style",
+      "prompt": "DB schema/migration 방식은 어떤 쪽인가요?",
+      "choices": [
+        "schema.sql",
+        "flyway",
+        "liquibase",
+        "none",
+        "not-needed",
+        "recommend"
+      ],
+      "answer": "flyway"
+    },
+    {
+      "id": "package-style",
+      "prompt": "패키지를 무엇 기준으로 나눌까요?",
+      "choices": [
+        "simple-mvc",
+        "layer-first",
+        "domain-first",
+        "feature-first",
+        "recommend"
+      ],
+      "answer": "domain-first"
+    },
+    {
+      "id": "architecture-style",
+      "prompt": "선택한 패키지 구조 안에서 내부 계층은 어떻게 나눌까요?",
+      "choices": [
+        "simple-layered",
+        "clean-architecture-light",
+        "hexagonal-light",
+        "strict-clean-architecture",
+        "recommend"
+      ],
+      "answer": "clean-architecture-light"
+    },
+    {
+      "id": "boundary-strictness",
+      "prompt": "계층/DTO/검증 경계는 어느 정도로 엄격하게 가져갈까요?",
+      "choices": [
+        "lightweight",
+        "pragmatic",
+        "strict",
+        "recommend"
+      ],
+      "answer": "strict"
+    }
+  ],
+  "notes": {
+    "project": "Default backend profile created by Persona Harness."
+  },
+  "philosophy": {
+    "company": null,
+    "personal": null,
+    "project": null,
+    "priority": [
+      "project-specific",
+      "company/team",
+      "personal",
+      "clean-code-baseline",
+      "framework-default"
+    ]
+  },
+  "next": [
+    "Run npx ph plan.",
+    "Review .persona/workflow/plan.md before implementation.",
+    "Ask the agent to implement only after the plan is accepted."
+  ]
+}

@@ -1,0 +1,13 @@
+id: controller.persistence-import
+language: Java
+message: Controllers should not import Jakarta persistence types; keep entities behind service/DTO boundaries.
+# persona-harness-level: warn
+# persona-harness-scope: single-file
+# persona-harness-profile-scope: java-spring-service-architecture
+# persona-harness-target-suffix: Controller.java
+# persona-harness-high-precision: true
+# persona-harness-block-allowed: true
+# persona-harness-fix-path: move persistence/entity access behind a Service and expose DTOs at the Controller boundary.
+# persona-harness-step-id: fix-controller-persistence-import
+rule:
+  pattern: import jakarta.persistence.$ENTITY;

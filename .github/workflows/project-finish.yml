@@ -1,0 +1,22 @@
+# Public Java/Spring consumer that produces an original GitHub-signed project
+# finish attestation, for the Consumer Authority Beta end-to-end audit (#116).
+#
+# The producer revision is pinned to an immutable commit rather than a branch:
+# the attestation binds the caller and producer workflow identities, so a
+# moving ref would make the signed claim unverifiable.
+name: Project finish attestation
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  id-token: write
+  attestations: write
+  artifact-metadata: write
+
+jobs:
+  attest:
+    uses: jyt6640/persona-harness/.github/workflows/persona-harness-project-finish.yml@8b37a153ec61b131c640f7a9ef66a1b14cc50275

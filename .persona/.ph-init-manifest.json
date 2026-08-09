@@ -1,0 +1,220 @@
+{
+  "schema": "persona-harness.init-manifest.v1",
+  "marker": "ph-init-owned-v1",
+  "package": {
+    "name": "persona-harness",
+    "version": "0.8.0-beta.33",
+    "templateDigest": "91d6b7de4ee26f52f3733f39f37cd4c06499169f064e9f69e20988180ad9e37e"
+  },
+  "project": {
+    "realPath": "/private/tmp/consumer-audit",
+    "profileDigest": null
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "993cfc9764a4de707fa7e3bbd9c0481d669cd2dcbdf6ec438cee03af56a35198"
+    },
+    {
+      "path": ".opencode/opencode.json",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "eda7dda3e31f249c22aec14fa40159852c77bf3e6646c0467a5dd85140337765"
+    },
+    {
+      "path": ".persona/conventions/architecture-no-common-util-package.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "e75b53f54215b825cbb745c946e184a700899f29d7feb07be734bf3b2213426f"
+    },
+    {
+      "path": ".persona/conventions/controller-persistence-import.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "3729555bf6c9366feba701a714658ce1b30cb6e93edfe34a62afd6bea53b1c16"
+    },
+    {
+      "path": ".persona/conventions/java-mutable-static.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "536c640f1fba20dffe166689cb6594b2078f67be85d12bfb32e8839740df0db0"
+    },
+    {
+      "path": ".persona/conventions/java-optional-get.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "f73d4174bf091f230a49f35cb9287b5ee09c9b5c492c183604ed4481a36a1dba"
+    },
+    {
+      "path": ".persona/conventions/java-raw-type.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "16d060bfcba66b923faec279a142feaf839f87a78c415830b5a76bf192148ee1"
+    },
+    {
+      "path": ".persona/conventions/java-sql-string-concatenation.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "1d381fc4eae24c27221b91885bf83de158354d777d9b925f59a7ba5da8f463ea"
+    },
+    {
+      "path": ".persona/conventions/jpa-entity-lombok-data.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "969fc6a3c9486b2867c8e11ac2577b56803eff037efb185a43775ac30751eb70"
+    },
+    {
+      "path": ".persona/conventions/method-no-composite-and-name.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "f1f5ef17f5b73fc146612b6472f4940cfbd3d320a94a3985d28479b82f36832c"
+    },
+    {
+      "path": ".persona/conventions/naming-no-generic-manager-class.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "ffe32a9a01bbcdfa7435ff17fe4e0a651d4c25e9b5eb2873b99cd33c19c966de"
+    },
+    {
+      "path": ".persona/conventions/spring-autowired-field-injection.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "e17b10b80ebdcc0aca930111aaad3cdeba47564663e6b31e4e28cdd944ea2357"
+    },
+    {
+      "path": ".persona/conventions/spring-controller-unbounded-find-all.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "cf09b79a838eb82e1aaa2bbb7b88d57b19660d5aab29e53f71dcfd1a5b0aaf52"
+    },
+    {
+      "path": ".persona/conventions/spring-transactional-no-proxy.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "e8e680c4def5e8fd7b5402110193e0a4a9f65b7dc0529c474caf3377d05b0410"
+    },
+    {
+      "path": ".persona/conventions/validation-no-util-based-validation.yml",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "159cb8991b5bb13b72ed6bb3f6ba809ee91ba2f063332dc722173df3ca766e37"
+    },
+    {
+      "path": ".persona/harness.jsonc",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "b39c2a28e6259e15e53faf6a54c0223d47fc1eeed23012a5f226319c72d2f7bb"
+    },
+    {
+      "path": ".persona/rules/backend/gradle-bootstrap.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "0c2576695e58a84f8ab7d9b16447258513493c0f45307c687b5fd14e518419cc"
+    },
+    {
+      "path": ".persona/rules/backend/java-backend-bootstrap.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "f4c9d9585a87ec122a97beaa3490e59045d220915093d96b49103a3b70a0e8a8"
+    },
+    {
+      "path": ".persona/rules/backend/java-common.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "12842c6761f4177802d7b0ceb051dbcc879455573bb8b92e08bfa06e15491a4b"
+    },
+    {
+      "path": ".persona/rules/backend/layered-architecture.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "f080296249ab508d8334d3f0409abb20f68c405a4b16a7797903a4d39fc442c4"
+    },
+    {
+      "path": ".persona/rules/backend/package-structure.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "e52d4a65316f33b018083c21469a33f9139f9b9a1367b89d8fe7e0e8afced23d"
+    },
+    {
+      "path": ".persona/rules/backend/spring-controller.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "8a8cd5a9bc4bd2a1c0a2a854e549e19d3cd62ce32b81ac0f6d183c34802d25d5"
+    },
+    {
+      "path": ".persona/rules/backend/spring-dto.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "1ef384e2e2881e657ef2644a194127d2249b14eba031d00a6b4f75a8d16e0a6c"
+    },
+    {
+      "path": ".persona/rules/backend/spring-entity.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "5efa267f24a5c8be265f8464f120bf9a93cac7467149b68e464d4580300cb619"
+    },
+    {
+      "path": ".persona/rules/backend/spring-repository.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "06c73e76e8ac077cd110dd4c70eb40c92bcd28b0b939ccbb8db818605cf02e25"
+    },
+    {
+      "path": ".persona/rules/backend/spring-service.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "291299f6159769beff8ca7e28603a50239abc78b9154b5d1fa8aacd4a24d657d"
+    },
+    {
+      "path": ".persona/rules/backend/spring-test.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "09683634f89706a1650eb51e85d3cd8089d120a4d42cb0ca59d3eb4acc3a36e6"
+    },
+    {
+      "path": ".persona/rules/backend/validation-exception.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "210d60d792083aec605c152baf25736efa5f52194f67763297289306dbd11f12"
+    },
+    {
+      "path": ".persona/rules/clean-code/abstraction.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "73daa5125cf8656882872ff2341ede82ee3577135755334d922f7db3fdb97c3c"
+    },
+    {
+      "path": ".persona/rules/clean-code/common.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "986b50ee81b505cc5384a25c3ae6dbe83c7bf9709315a06d6d0447f5a155d5aa"
+    },
+    {
+      "path": ".persona/rules/clean-code/method-design.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "441940fab83c0d0adae2289645adc81d642c6f399ee5bd87a6f1b83250ab8e28"
+    },
+    {
+      "path": ".persona/rules/clean-code/naming.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "eeeaae55b2c7911661ea91e4ffee3eeaf620f77866364e28d39e3a18d67a99e9"
+    },
+    {
+      "path": ".persona/rules/clean-code/oop.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "7b2788b1e7e2327454eded063470985de864bd88b7964006ccb8004fa9fbc645"
+    },
+    {
+      "path": ".persona/rules/clean-code/testability.md",
+      "owner": "persona-harness",
+      "marker": "ph-init-owned-v1",
+      "digest": "cde1930f31cdb2bd668f9cf7e381cce3e6a6135ca2d295bb0e7b2d85df6622d8"
+    }
+  ],
+  "manifestDigest": "25b1f00eada2b1ca6d503d897d1143188b3bb41a2b627a4c579448e754bb4e28"
+}
