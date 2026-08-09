@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "persona-harness": "^0.8.0-beta.33"
+    "persona-harness": "^0.8.0-beta.34"
   }
 }
